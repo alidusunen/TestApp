@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".DetailView">
         </activity>
+        <activity android:name=".AddUser">
+        </activity>
     </application>
 
 </manifest>

@@ -35,7 +35,7 @@ public class AddAsset extends AppCompatActivity {
                     @Override
                     public void onClick(View v){
 
-                        boolean isInserted = assetsDb.insertData(editItem.getText().toString(),
+                        boolean isInserted = assetsDb.insertAssetData(editItem.getText().toString(),
                         editCategory.getText().toString(),
                         editSerial.getText().toString(),
                         editUser.getText().toString(),
