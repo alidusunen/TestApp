@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="100dp" android:background="#F37357">
+
+    <TextView
+            android:text="Tag Number:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tag_number" android:layout_marginStart="30dp"
+            app:layout_constraintStart_toEndOf="@+id/textView" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"/>
+    <TextView
+            android:text="Category:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:id="@+id/textView7" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/category" android:layout_marginStart="50dp"
+            app:layout_constraintStart_toEndOf="@+id/textView7" app:layout_constraintTop_toBottomOf="@+id/tag_number"/>
+    <TextView
+            android:text="User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_info" android:layout_marginStart="81dp"
+            app:layout_constraintStart_toEndOf="@+id/textView5" app:layout_constraintTop_toBottomOf="@+id/category"/>
+</android.support.constraint.ConstraintLayout>
